@@ -1,0 +1,58 @@
+
+/* LOGIN BACKGROUND */
+body {
+  background: linear-gradient(135deg, #a0d2eb, #e5eaf5, #d0bdf4, #8458B3, #a28089);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* BOX */
+.login-box {
+  width: 320px;
+  margin: 120px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: linear-gradient(135deg, #2ecee7, #e9c29f, #903434, #19877e);
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+/* INPUTS */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+}
+
+/* BUTTON */
+button {
+  width: 95%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #e86705, #efe5dd);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #49f01bea, #d17bfc);
+}
+
+/* MESSAGE */
+#message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+}
